@@ -5,6 +5,12 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
+/* Added Classes and ids */
+
+.email-icon {
+
+}
+
 /* HTML5 DECLARATIONS */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, dialog {display: block}
 audio[controls],canvas,video {display: inline-block; *display: inline; zoom: 1}
@@ -390,6 +396,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .image img{
   margin: 0px;
   width: 100%;
+  height: 100%; 
 }
 .image-overlay {
   position: absolute;
@@ -397,7 +404,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   top: 0;
   overflow: hidden;
   width: 100%;
-  height: 99%;
+  /*height: 100%;*/
   background-color: rgba(231, 76, 60,.6);
   text-align: center;
   opacity:0;
@@ -532,7 +539,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 /* Meters */
-.meter {
+/*/*.meter {
   height: 24px;  /* Can be anything */
   position: relative;
   border: 1px solid #f1f1f1;
@@ -540,7 +547,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-border-radius: 4px;
   border-radius: 4px;
   margin-bottom: 1em;
-}
+}*/*/
 .meter > span {
   display: block;
   height: 100%;
@@ -772,12 +779,15 @@ Change widths as necessary
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
 }
-.project-div { background-color: #4AB478; text-align: center; padding: 10px; }
-.image {height: 100px;background-color: white;margin-bottom: 10px;font-family: Sofia;text-align: center;padding-top:30px;font-size: 20px;font-weight: bold;}
+.project-div { background-color: #4AB478; text-align: center; padding: 10px;}
+.image {height: 200px; width: 200px; background-color: white;margin-bottom: 10px;font-family: Sofia;text-align: center;padding-top:30px;font-size: 20px;font-weight: bold;}
 .data { font-size: 150%;font-family: 'Amaranth';color: white;}
-td {padding: 20px;width:250px;height: 200px;}
+td {padding: 20px; width:500px; height: 100%;}
 tbody {
     display: table-row-group;
     vertical-align: middle;
     display: grid;
 }
+
+
+
